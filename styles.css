@@ -1,0 +1,121 @@
+body{
+background-color: rgb(17, 17, 17);
+color: white;
+}
+@font-face {
+    font-family: tesla font;
+    src: url(/fonts/TESLA.ttf);
+}
+#tesfont{
+    font-family: tesla font;
+    color: red;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 8px 5px 5px rgb(20, 223, 238);
+}
+ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.idea{
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 100px;
+    letter-spacing: 6px;
+    
+}
+#Teslaq{
+    font-size: xx-large;
+    color:gray;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.line{
+    color: black;
+}
+#tbanner{
+    background-color: 
+    
+    
+    
+} 
+
+/*.logo{
+    
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+
+}*/
+
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 10px;
+    
+    
+}
+nav{
+    float: right;
+    
+}
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+header{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+    
+}
+
+nav li{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 100px;
+    text-transform: uppercase;
+    padding-right: 40px;
+    
+}
+nav a:hover{
+    color: red;
+}
+    
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(5, 4, 4)
+}
+
+div a:hover{
+    color: rgba(250, 246, 245, 0.911)
+}
+
+footer{
+    background-color: hsl(197, 91%, 55%);
+    border-radius: 10px;
+}
+    
